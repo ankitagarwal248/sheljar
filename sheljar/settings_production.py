@@ -8,6 +8,7 @@ SECURE_SSL_REDIRECT = True
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
+REMOVE_WWW = True
 
 
 EMAIL_SUBJECT_PREFIX = "[Sheljar Production] "
