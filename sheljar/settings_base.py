@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    'sheljar.middleware.RemoveWWWMiddleware',
+    #'sheljar.middleware.RemoveWWWMiddleware',
 ]
 
 ROOT_URLCONF = 'sheljar.urls'
