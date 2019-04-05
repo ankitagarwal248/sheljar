@@ -6,7 +6,7 @@ django_heroku.settings(locals())
 ENV = 'production'
 SECURE_SSL_REDIRECT = False
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 REMOVE_WWW = False
 
