@@ -4,11 +4,11 @@ import django_heroku
 django_heroku.settings(locals())
 
 ENV = 'production'
-SECURE_SSL_REDIRECT = False
+SECURE_SSL_REDIRECT = True
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
-REMOVE_WWW = True
+REMOVE_WWW = False
 
 
 EMAIL_SUBJECT_PREFIX = "[Sheljar Production] "
